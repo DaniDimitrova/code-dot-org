@@ -1,6 +1,5 @@
 import React, {PropTypes} from 'react';
 import Radium from 'radium';
-import color from "../util/color";
 import * as applabConstants from './constants';
 import ScreenSelector, {styles as ScreenSelectorStyles} from './ScreenSelector';
 import { RunButton, ResetButton } from '../templates/GameButtons';
@@ -14,10 +13,10 @@ const styles = {
   phoneFrame: {
     display: 'block',
     height: FRAME_HEIGHT,
-    backgroundColor: color.lighter_gray,
+    backgroundColor: '#008080',
   },
   phoneFrameDark: {
-    backgroundColor: color.charcoal
+    backgroundColor: '#008080'
   },
   phoneFrameTop: {
     borderTopLeftRadius: RADIUS,
@@ -73,6 +72,7 @@ class PhoneFrame extends React.Component {
     const { isDark, screenIds, showSelector, isPaused, onScreenCreate } = this.props;
     return (
       <span id="phoneFrame">
+        <p>Hello from Dani!</p>
         <div id="phoneFrameWrapper">
           <div
             style={[

@@ -56,7 +56,7 @@ import dom from '../dom';
 import {SignInState} from '../code-studio/progressRedux';
 import Visualization from '@code-dot-org/artist';
 
-const CANVAS_HEIGHT = 400;
+const CANVAS_HEIGHT = 600;
 const CANVAS_WIDTH = 400;
 
 const DEFAULT_X = CANVAS_WIDTH / 2;

@@ -6,8 +6,8 @@ export default applabTurtle;
 
 // These offset are used to ensure that the turtle image is centered over
 // its x,y coordinates. The image is currently 48x48, rendered at 24x24.
-var TURTLE_WIDTH = 24;
-var TURTLE_HEIGHT = 24;
+var TURTLE_WIDTH = 48;
+var TURTLE_HEIGHT = 48;
 var TURTLE_ROTATION_OFFSET = -45;
 
 applabTurtle.getTurtleContext = function () {
